@@ -1,0 +1,31 @@
+.btn-outline-dark:hover {
+    background: transparent;
+    color: #212529;
+}
+
+.btn-outline-success:hover {
+    background: transparent;
+    color: #198754;
+}
+
+.btn-outline-danger:hover {
+    background: transparent;
+    color: #dc3545;
+}
+.carousel-control-prev, .carousel-control-next {
+    position: absolute;
+    top: 45%;
+    height: 50px;
+    margin: 0 20px;
+    width: 48px;
+    border-radius: 999px;
+    background-color: rgba(255,255,255,1);
+
+    &:hover {
+        background-color: rgba(255,255,255,0.6);
+    }
+
+    &:active {
+        background-color: rgba(255,255,255,0.6);
+    }
+}
